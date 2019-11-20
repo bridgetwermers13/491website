@@ -1,14 +1,9 @@
 <?php
 
-//DEFINE('DB_USERNAME', 'user03');
-//DEFINE('DB_PASSWORD', '0369');
-//DEFINE('DB_HOST', 'localhost:8889');
-//DEFINE('DB_DATABASE', 'db03');
-
-DEFINE('DB_USERNAME', 'paladi19_491');
-DEFINE('DB_PASSWORD', 'pUndoekKZy7FTzg#');
-DEFINE('DB_HOST', 'localhost:');
-DEFINE('DB_DATABASE', 'db03');
+DEFINE('DB_USERNAME', 'user17');
+DEFINE('DB_PASSWORD', '17stir');
+DEFINE('DB_HOST', 'localhost:8889');
+DEFINE('DB_DATABASE', 'db17');
 
 
 $connection = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_DATABASE);

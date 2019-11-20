@@ -10,9 +10,11 @@ function carousel() {
     const x = document.getElementsByClassName("galleryImages");
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
-        // if (x[i].parentElement.id !== "galleryDisplay"){
-        //     document.getElementById("galleryDisplay").appendChild(x[i])
-        // }
+
+        // Check if the tag is a child of the gallery element. If not, add as child
+        if (x[i].parentElement.id !== "galleryDisplay"){
+            document.getElementById("galleryDisplay").appendChild(x[i])
+        }
     }
     slideIndex++;
     if (slideIndex > x.length) {slideIndex = 1}
